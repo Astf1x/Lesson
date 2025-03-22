@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -20,7 +19,7 @@
             padding: 10px 20px;
             font-size: 16px;
             color: white;
-            background-color: #007BFF;
+            background-color: #28a745; /* Changed button color to green */
             border: none;
             border-radius: 5px;
             cursor: pointer;
@@ -28,16 +27,41 @@
             text-decoration: none;
         }
         .subscribe-button:hover {
-            background-color: #0056b3;
+            background-color: #218838; /* Darker green on hover */
+        }
+        .social-login {
+            margin-top: 20px;
+            text-align: center;
+        }
+        .social-login button {
+            margin: 5px;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border: none;
+            border-radius: 5px;
+        }
+        .social-login .google {
+            background-color: #db4437;
+            color: white;
+        }
+        .social-login .facebook {
+            background-color: #3b5998;
+            color: white;
         }
     </style>
 </head>
 <body>
     <div class="profile">
-        <h1>Иван Нечаев</h1>
+        <h1>Иван Иванов</h1>
         <p>Привет! Меня зовут Иван, и я крутой.</p>
         <p>В свободное время я увлекаюсь изучением новых технологий и участием в хакатонах. Я всегда открыт для новых возможностей и проектов, которые помогут мне расти профессионально.</p>
         <a href="#" class="subscribe-button">Подписаться на новости</a>
+
+        <div class="social-login">
+            <button class="google">Войти через Google</button>
+            <button class="facebook">Войти через Facebook</button>
+        </div>
     </div>
 </body>
 </html>
